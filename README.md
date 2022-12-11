@@ -20,7 +20,7 @@ yarn start
 docker build .
 docker iamges
 docker tag イメージID タグ名:バージョン
-docker run -p 8080:8080
+docker run -p 8080:8080 タグ名:バージョン
 docker ps -a
 docker rm -f コンテナID
 docker images
