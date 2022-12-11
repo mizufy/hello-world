@@ -7,6 +7,7 @@ yarn add typescript
 yarn add ts-node
 yarn add express
 yarn run tsc --init
+yarn install
 ```
 
 ##  デバッグ
