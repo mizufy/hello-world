@@ -31,4 +31,5 @@ docker rmi イメージID
 ```sh
 docker build -t sample:v1 .
 docker run -p 8080:8080 sample:v1
+curl -XPOST localhost:8080
 ```
