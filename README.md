@@ -26,3 +26,9 @@ docker rm -f コンテナID
 docker images
 docker rmi イメージID
 ```
+
+##  Dockerで動かすシンプル
+```sh
+docker build -t sample:v1 .
+docker run -p 8080:8080 sample:v1
+```
